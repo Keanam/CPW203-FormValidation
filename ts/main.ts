@@ -7,6 +7,7 @@ window.onload = function(){
 function main():void{
     isTextPresent("first-name", "First name is required!");
     isTextPresent("last-name", "Last name is required!");
+}
 /**
  * Returns true if the textbox with the given id
  * has some text inside it

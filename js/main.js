@@ -5,14 +5,14 @@ window.onload = function () {
 function main() {
     isTextPresent("first-name", "First name is required!");
     isTextPresent("last-name", "Last name is required!");
-    function isTextPresent(id, errMsg) {
-        var txtBox = document.getElementById(id);
-        var txtBoxValue = txtBox.value;
-        if (txtBoxValue == "") {
-            var errSpan = txtBox.nextElementSibling;
-            errSpan.innerHTML = errMsg;
-            return false;
-        }
-        return true;
+}
+function isTextPresent(id, errMsg) {
+    var txtBox = document.getElementById(id);
+    var txtBoxValue = txtBox.value;
+    if (txtBoxValue == "") {
+        var errSpan = txtBox.nextElementSibling;
+        errSpan.innerHTML = errMsg;
+        return false;
     }
+    return true;
 }
