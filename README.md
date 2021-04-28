@@ -1,6 +1,9 @@
 # CPW203 Class Example
 Spring 2020, Getting familiar with source control and more TypeScript. Learning the basics such as making commits!
 
+## Live Website
+See the live website at https://keanam.github.io/CPW203-FormValidation/
+
 ## More info on Typescript
 [Check out the official site](https://www.typescriptlang.org/)
 
